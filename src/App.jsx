@@ -1,7 +1,5 @@
 import { useState } from 'react'
-import { Wrapper } from './component'
-import { DisplayInfo } from './component/displayInfo/DisplayInfo'
-import { DisplayAssets } from './component/displayAssets/DisplayAssets'
+import { Wrapper, DisplayInfo, DisplayAssets } from './component'
 
 function App() {
 	const synopsis = "bla ".repeat(999)
