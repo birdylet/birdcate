@@ -3,7 +3,6 @@ import { Wrapper, DisplayInfo, DisplayAssets } from './component'
 
 function App() {
 	const synopsis = "bla ".repeat(999)
-
 	return (
 		<Wrapper title="birdcate" CNMain="">
 			<DisplayInfo 
