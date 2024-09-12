@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Wrapper, DisplayInfo, DisplayAssets } from './component'
+import { grm } from "./helpers"
 
 function App() {
 	const synopsis = "bla ".repeat(999)
