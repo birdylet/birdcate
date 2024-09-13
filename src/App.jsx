@@ -5,7 +5,7 @@ import { grm } from "./helpers"
 function App() {
 	const synopsis = "bla ".repeat(999)
 	return (
-		<Wrapper title="birdcate" CNMain="">
+		<Wrapper title="birdcate">
 			<DisplayInfo 
 				title="filme tal" 
 				synopsis={synopsis} 
