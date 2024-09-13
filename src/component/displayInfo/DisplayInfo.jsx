@@ -27,8 +27,8 @@ export function DisplayInfo({title, synopsis, genres, ...status}) {
 			</div>
 
 			<div className="flex flex-row gap-x-6 overflow-y-hidden">
-				{genres.map((g) => (
-					<p className="clip-1 px-6 bg-emphasis">
+				{genres.map((g, i) => (
+					<p key={i} className="clip-1 px-6 bg-emphasis">
 						{g}
 					</p>
 				))}
